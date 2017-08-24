@@ -1,9 +1,8 @@
-# Fasetto Word
-The new open-source chat application for Fasetto
+# Word Chat Application
+Following free guide I found on youtube which goes into alot of detail. Would highly recommend AngelSix!!
 
-# Gettings Started
-I will be making videos available on my YouTube channel that will be guides to everything contained in this repository
-
-http://www.angelsix.com/youtube
+AngelSix's Website: http://www.angelsix.com/youtube
+AngelSix's Youtube Channel: https://www.youtube.com/channel/UCJ3AxeCHGPZkMi3kRfCuiHw
+AngelSix's Guide Im Following: https://www.youtube.com/playlist?list=PLrW43fNmjaQVYF4zgsD0oL9Iv6u23PI6M
 
 
