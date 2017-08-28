@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fasetto.Word.Core;
+using System;
 using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Input;
@@ -76,15 +77,9 @@ namespace Fasetto.Word
         /// </summary>
         public int OuterMarginSize
         {
-            get
-            {
-                // If it is maximized or docked, no border
-                return Borderless ? 0 : mOuterMarginSize;
-            }
-            set
-            {
-                mOuterMarginSize = value;
-            }
+            // If it is maximized or docked, no border
+            get => Borderless ? 0 : mOuterMarginSize;
+            set => mOuterMarginSize = value;
         }
 
         /// <summary>
@@ -97,15 +92,9 @@ namespace Fasetto.Word
         /// </summary>
         public int WindowRadius
         {
-            get
-            {
-                // If it is maximized or docked, no border
-                return Borderless ? 0 : mWindowRadius;
-            }
-            set
-            {
-                mWindowRadius = value;
-            }
+            // If it is maximized or docked, no border
+            get => Borderless ? 0 : mWindowRadius;
+            set => mWindowRadius = value;
         }
 
         /// <summary>
@@ -121,11 +110,6 @@ namespace Fasetto.Word
         /// The height of the title bar / caption of the window
         /// </summary>
         public GridLength TitleHeightGridLength { get { return new GridLength(TitleHeight + ResizeBorder); } }
-
-        /// <summary>
-        /// The current page of the application
-        /// </summary>
-        public ApplicationPage CurrentPage { get; set; } = ApplicationPage.Chat;
 
         #endregion
 

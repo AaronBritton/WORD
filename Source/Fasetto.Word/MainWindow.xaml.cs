@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fasetto.Word.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +26,11 @@ namespace Fasetto.Word
             InitializeComponent();
 
             this.DataContext = new WindowViewModel(this);
+        }
+
+        private void SideMenuControl_Loaded(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

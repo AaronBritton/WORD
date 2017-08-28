@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Fasetto.Word
+namespace Fasetto.Word.Core
 {
     /// <summary>
     /// The design-time data for a <see cref="ChatListViewModel"/>
@@ -69,7 +69,7 @@ namespace Fasetto.Word
                     Message = "The new server is up, got 192.168.1.1",
                     ProfilePictureRGB = "00d405"
                 },
-                                new ChatListItemViewModel
+                new ChatListItemViewModel
                 {
                     Name = "Luke",
                     Initials = "LM",

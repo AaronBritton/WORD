@@ -3,6 +3,7 @@ using System.Windows;
 using System.Threading.Tasks;
 using System.Windows.Media.Animation;
 using System;
+using Fasetto.Word.Core;
 
 namespace Fasetto.Word
 {
@@ -43,7 +44,7 @@ namespace Fasetto.Word
         /// </summary>
         public VM ViewModel
         {
-            get { return mViewModel; }
+            get => mViewModel; 
             set
             {
                 // If nothing has changed, return
